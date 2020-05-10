@@ -1297,10 +1297,10 @@ Wire Notes Line
 Wire Notes Line
 	1200 5350 3800 5350
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP1
 U 1 1 5F1F2FF8
 P 1550 4100
-F 0 "TP?" H 1492 4126 50  0000 R CNN
+F 0 "TP1" H 1492 4126 50  0000 R CNN
 F 1 "Input Signal" H 1492 4217 50  0000 R CNN
 F 2 "" H 1750 4100 50  0001 C CNN
 F 3 "~" H 1750 4100 50  0001 C CNN
@@ -1313,10 +1313,10 @@ Wire Wire Line
 	1450 4000 1550 4000
 Connection ~ 1550 4000
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP3
 U 1 1 5F208773
 P 5350 3400
-F 0 "TP?" H 5450 3600 50  0000 R CNN
+F 0 "TP3" H 5450 3600 50  0000 R CNN
 F 1 "TestPoint" H 5650 3700 50  0000 R CNN
 F 2 "" H 5550 3400 50  0001 C CNN
 F 3 "~" H 5550 3400 50  0001 C CNN
@@ -1331,10 +1331,10 @@ Wire Wire Line
 Wire Wire Line
 	5350 3500 5450 3500
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP4
 U 1 1 5F22B391
 P 7200 3400
-F 0 "TP?" H 7300 3600 50  0000 R CNN
+F 0 "TP4" H 7300 3600 50  0000 R CNN
 F 1 "TestPoint" H 7500 3700 50  0000 R CNN
 F 2 "" H 7400 3400 50  0001 C CNN
 F 3 "~" H 7400 3400 50  0001 C CNN
@@ -1347,10 +1347,10 @@ Connection ~ 7200 3500
 Wire Wire Line
 	7200 3500 7700 3500
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP6
 U 1 1 5F2380CB
 P 10400 3450
-F 0 "TP?" H 10500 3650 50  0000 R CNN
+F 0 "TP6" H 10500 3650 50  0000 R CNN
 F 1 "Output Signal" H 10700 3750 50  0000 R CNN
 F 2 "" H 10600 3450 50  0001 C CNN
 F 3 "~" H 10600 3450 50  0001 C CNN
@@ -1363,10 +1363,10 @@ Wire Wire Line
 	10400 3550 10500 3550
 Connection ~ 10400 3550
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP5
 U 1 1 5F24FCF1
 P 8450 3450
-F 0 "TP?" H 8550 3650 50  0000 R CNN
+F 0 "TP5" H 8550 3650 50  0000 R CNN
 F 1 "Tone Control" H 8800 3750 50  0000 R CNN
 F 2 "" H 8650 3450 50  0001 C CNN
 F 3 "~" H 8650 3450 50  0001 C CNN
@@ -1389,14 +1389,17 @@ Wire Wire Line
 Wire Wire Line
 	2950 3300 3100 3300
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP2
 U 1 1 5F2936BD
 P 3100 3250
-F 0 "TP?" H 3350 3300 50  0000 R CNN
+F 0 "TP2" H 3350 3300 50  0000 R CNN
 F 1 "Amplified & Inverted" H 3950 3400 50  0000 R CNN
 F 2 "" H 3300 3250 50  0001 C CNN
 F 3 "~" H 3300 3250 50  0001 C CNN
 	1    3100 3250
 	1    0    0    -1  
 $EndComp
+NoConn ~ 5400 6400
+NoConn ~ 5400 6600
+NoConn ~ 5000 6500
 $EndSCHEMATC
