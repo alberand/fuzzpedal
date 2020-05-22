@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/alberand/Projects/bigmuffpi/bigmuffpi/bigmuff.sch</source>
+    <date>Wed 20 May 2020 10:29:23 PM CEST</date>
+    <tool>Eeschema 5.1.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>BigMuff Pi fuzzbox</title>
+        <company>alberand</company>
+        <rev>1.0</rev>
+        <date>2020-05-09</date>
+        <source>bigmuff.sch</source>
+        <comment number="1" value="Copy of the Big Muff Pi based mainly on the excellent analysis from ElectroSmash"/>
+        <comment number="2" value="https://www.electrosmash.com/big-muff-pi-analysis"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R1">
+      <value>30K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">CFR-12JB-52-30K</field>
+        <field name="Mouser">603-CFR-12JB-52-30K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB69B8F</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/445/860020672005-1725471.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">860020672005</field>
+        <field name="Mouser">710-860020672005</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB6C7F2</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC239</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/308/BC550-D-1802078.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">BC549CTA</field>
+        <field name="Mouser">512-BC549CTA</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BCE" description="NPN transistor, base/collector/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB70D38</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">CFR-12JT-52-100R</field>
+        <field name="Mouser">603-CFR-12JT-52-100R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB75882</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>47K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">CFR-12JB-52-47K</field>
+        <field name="Mouser">603-CFR-12JB-52-47K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB759EB</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>470K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">CFR-12JT-52-470K</field>
+        <field name="Mouser">603-CFR-12JT-52-470K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB75B5F</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>470pF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/427/kseries-1763315.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">K471K15X7RF53H5</field>
+        <field name="Mouser">594-K471K15X7RF53H5</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB80298</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://product.tdk.com/info/en/catalog/datasheets/leadmlcc_halogenfree_fg_en.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">FG28X5R1H105KRT00</field>
+        <field name="Mouser">810-FG28X5R1H105KRT0</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB8218F</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">CFR-12JT-52-10K</field>
+        <field name="Mouser">603-CFR-12JT-52-10K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB75C04</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">CFR-12JT-52-1K</field>
+        <field name="Mouser">603-CFR-12JT-52-1K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB91F17</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/427/kseries-1763315.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">K104K15X7RF53H5</field>
+        <field name="Mouser">594-K104K15X7RF53H5</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB93E2C</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">CFR-12JT-52-10K</field>
+        <field name="Mouser">603-CFR-12JT-52-10K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB95941</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BC239</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/308/BC550-D-1802078.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">BC549CTA</field>
+        <field name="Mouser">512-BC549CTA</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BCE" description="NPN transistor, base/collector/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB996F1</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">CFR-12JR-52-100K</field>
+        <field name="Mouser">603-CFR-12JR-52-100K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB9A6DE</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>470K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">CFR-12JT-52-470K</field>
+        <field name="Mouser">603-CFR-12JT-52-470K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB9D4DD</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>470pF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/427/kseries-1763315.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">K471K15X7RF53H5</field>
+        <field name="Mouser">594-K471K15X7RF53H5</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB9E368</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/445/860020672005-1725471.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">860020672005</field>
+        <field name="Mouser">710-860020672005</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBA25B8</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N914</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/308/1N914-D-1801484.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C125665</field>
+        <field name="Mfr. No">1N914</field>
+        <field name="Mouser">512-1N914</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBA29DA</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N914</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/308/1N914-D-1801484.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C125665</field>
+        <field name="Mfr. No">1N914</field>
+        <field name="Mouser">512-1N914</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBA4757</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">CFR-12JT-52-10K</field>
+        <field name="Mouser">603-CFR-12JT-52-10K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBA796A</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>150</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">CFR-12JT-52-150R</field>
+        <field name="Mouser">603-CFR-12JT-52-150R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBC0C7B</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/427/kseries-1763315.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">K104K15X7RF53H5</field>
+        <field name="Mouser">594-K104K15X7RF53H5</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBD96B5</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">CFR-12JT-52-10K</field>
+        <field name="Mouser">603-CFR-12JT-52-10K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBD96BB</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">CFR-12JR-52-100K</field>
+        <field name="Mouser">603-CFR-12JR-52-100K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBD96C7</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>470K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">CFR-12JT-52-470K</field>
+        <field name="Mouser">603-CFR-12JT-52-470K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBD96D3</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>470pF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/427/kseries-1763315.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">K471K15X7RF53H5</field>
+        <field name="Mouser">594-K471K15X7RF53H5</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBD96D9</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1uF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/445/860020672005-1725471.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">860020672005</field>
+        <field name="Mouser">710-860020672005</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBD96DF</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N914</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/308/1N914-D-1801484.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C125665</field>
+        <field name="Mfr. No">1N914</field>
+        <field name="Mouser">512-1N914</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBD96E5</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N914</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/308/1N914-D-1801484.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C125665</field>
+        <field name="Mfr. No">1N914</field>
+        <field name="Mouser">512-1N914</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBD96EB</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">CFR-12JT-52-10K</field>
+        <field name="Mouser">603-CFR-12JT-52-10K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBD96F1</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>150</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">CFR-12JT-52-150R</field>
+        <field name="Mouser">603-CFR-12JT-52-150R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBD971A</tstamp>
+    </comp>
+    <comp ref="Tone1">
+      <value>100K</value>
+      <datasheet>https://cz.mouser.com/datasheet/2/15/RK09K-771158.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">RK09D113BF25B15</field>
+        <field name="Mouser">688-RK09D113BF25B15</field>
+      </fields>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBE9855</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>3.9nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/427/kseries-1763315.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">K392K15X7RF53L2</field>
+        <field name="Mouser">594-K392K15X7RF53L2</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBEF0A3</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>39K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">CFR-12JR-52-39K</field>
+        <field name="Mouser">603-CFR-12JR-52-39K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBF987A</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>22K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">CFR-12JT-52-22K </field>
+        <field name="Mouser">603-CFR-12JT-52-22K </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC00B1E</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/427/kseries-1763315.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">K104K15X7RF53H5</field>
+        <field name="Mouser">594-K104K15X7RF53H5</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC193AA</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>BC239</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/308/BC550-D-1802078.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">BC549CTA</field>
+        <field name="Mouser">512-BC549CTA</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BCE" description="NPN transistor, base/collector/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC2E896</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>15K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">CFR-12JT-52-15K</field>
+        <field name="Mouser">603-CFR-12JT-52-15K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC32A40</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>430K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">CFR-12JB-52-430K</field>
+        <field name="Mouser">603-CFR-12JB-52-430K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC34CF0</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/427/kseries-1763315.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">K104K15X7RF53H5</field>
+        <field name="Mouser">594-K104K15X7RF53H5</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC4338C</tstamp>
+    </comp>
+    <comp ref="Volume1">
+      <value>100K</value>
+      <datasheet>https://cz.mouser.com/datasheet/2/15/RK09K-771158.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">RK09D113BF25B15</field>
+        <field name="Mouser">688-RK09D113BF25B15</field>
+      </fields>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC47C81</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>INPUT</value>
+      <datasheet>https://www.neutrik.us/en-us/product/nmj6hc-s.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">NMJ6HC-S</field>
+        <field name="Mouser">550-NMJ6HCS</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2_Ground" description="Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB6A75B</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>390</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">CFR-12JB-52-390R</field>
+        <field name="Mouser">603-CFR-12JB-52-390R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE58B1E</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/427/tlhg540-1766965.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C162069</field>
+        <field name="Mfr. No">TLHR5400-AS12Z</field>
+        <field name="Mouser">78-TLHR5400-AS12Z</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE68BB5</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>OUTPUT</value>
+      <datasheet>https://www.neutrik.us/en-us/product/nmj6hc-s.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">NMJ6HC-S</field>
+        <field name="Mouser">550-NMJ6HCS</field>
+      </fields>
+      <libsource lib="Connector" part="AudioJack2_Ground" description="Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC24217</tstamp>
+    </comp>
+    <comp ref="Sustain1">
+      <value>100K</value>
+      <datasheet>https://cz.mouser.com/datasheet/2/15/RK09K-771158.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">RK09D113BF25B15</field>
+        <field name="Mouser">688-RK09D113BF25B15</field>
+      </fields>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB8FE76</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">CFR-12JR-52-100K</field>
+        <field name="Mouser">603-CFR-12JR-52-100K</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC399E3</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>3K3</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">CFR-12JR-52-3K3</field>
+        <field name="Mouser">603-CFR-12JR-52-3K3</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC378E0</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/427/kseries-1763315.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">K103K10X7RH5TH5</field>
+        <field name="Mouser">594-K103K10X7RH5TH5</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBFBE5D</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>BC239</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_Inline</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/308/BC550-D-1802078.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">BC549CTA</field>
+        <field name="Mouser">512-BC549CTA</field>
+      </fields>
+      <libsource lib="Device" part="Q_NPN_BCE" description="NPN transistor, base/collector/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBD96C1</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>POWER</value>
+      <datasheet>https://cz.mouser.com/datasheet/2/140/100-1079940.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">100SP1T1B1M1QEH </field>
+        <field name="Mouser">612-100-A1111</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DPDT_x2" description="Switch, dual pole double throw, separate symbols"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF7480B</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>3PDT-foot-switch</value>
+      <datasheet>https://cz.mouser.com/datasheet/2/13/SF17_SF12030F-1155740.pdf</datasheet>
+      <fields>
+        <field name="Field4">SWCH-10554</field>
+        <field name="Mfr. No">SF17020F-0302-21R-L-015</field>
+        <field name="Mouser">107-SF17020F-32-21RL</field>
+      </fields>
+      <libsource lib="SparkFun-Switches" part="3PDT-foot-switch" description="Double-Pole, Double-Throw (DPDT) Switch Double-pole, double-throw switches. &lt;h4&gt;Variant Overview&lt;/h4&gt;&lt;h5&gt;PTH-GPI-152-3013&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href=&quot;https://www.sparkfun.com/products/11345&quot;&gt;SparkFun Geiger Counter&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-AY0202&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/597&quot;&gt;Surface Mount DPDT Switch&lt;/a&gt; (COM-00597)&lt;/li&gt;&lt;li&gt;Used on e.g. &lt;a href=&quot;https://www.sparkfun.com/products/12049&quot;&gt;LilyPad Arduino USB - ATmega32U4 Board&lt;/a&gt;&lt;/ul&gt;"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F097466</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>PWR JACK</value>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_XKB-Enterprise-DC-005-5A-2-0_C381116.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C381116</field>
+        <field name="Mfr. No"> DC-005-5A-2.0 </field>
+      </fields>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0D54E6</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>1N914</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/308/1N914-D-1801484.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C125665</field>
+        <field name="Mfr. No">1N914</field>
+        <field name="Mouser">512-1N914</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0DF5EC</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>1N914</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://cz.mouser.com/datasheet/2/308/1N914-D-1801484.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C125665</field>
+        <field name="Mfr. No">1N914</field>
+        <field name="Mouser">512-1N914</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0E34F6</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <datasheet>https://cz.mouser.com/datasheet/2/215/32-234-741236.pdf</datasheet>
+      <fields>
+        <field name="Mfr. No">232</field>
+        <field name="Mouser">534-232</field>
+      </fields>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F14DC7A</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>Input Signal</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1F2FF8</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F208773</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F22B391</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>Output Signal</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2380CB</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>Tone Control</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F24FCF1</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>Amplified &amp; Inverted</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2936BD</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="AudioJack2_Ground">
+      <description>Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack2_Ground</field>
+      </fields>
+      <pins>
+        <pin num="G" name="~" type="passive"/>
+        <pin num="S" name="~" type="passive"/>
+        <pin num="T" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_BCE">
+      <description>NPN transistor, base/collector/emitter</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BCE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Switches" part="3PDT-foot-switch">
+      <description>Double-Pole, Double-Throw (DPDT) Switch Double-pole, double-throw switches. &lt;h4&gt;Variant Overview&lt;/h4&gt;&lt;h5&gt;PTH-GPI-152-3013&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Used on &lt;a href="https://www.sparkfun.com/products/11345"&gt;SparkFun Geiger Counter&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h5&gt;SMD-AY0202&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/597"&gt;Surface Mount DPDT Switch&lt;/a&gt; (COM-00597)&lt;/li&gt;&lt;li&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/12049"&gt;LilyPad Arduino USB - ATmega32U4 Board&lt;/a&gt;&lt;/ul&gt;</description>
+      <footprints>
+        <fp>*SWITCH_DPDT_PTH_GPI-152-3013*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">3PDT-foot-switch</field>
+        <field name="Footprint">3PDT-foot-switch</field>
+        <field name="Field4">SWCH-10554</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="BiDi"/>
+        <pin num="5" name="5" type="BiDi"/>
+        <pin num="6" name="6" type="BiDi"/>
+        <pin num="7" name="7" type="BiDi"/>
+        <pin num="8" name="8" type="BiDi"/>
+        <pin num="9" name="9" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DPDT_x2">
+      <description>Switch, dual pole double throw, separate symbols</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW*DPDT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DPDT_x2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/home/alberand/Documents/KiCAD/kicad-symbols/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/home/alberand/Documents/KiCAD/kicad-symbols/Device.lib</uri>
+    </library>
+    <library logical="SparkFun-Switches">
+      <uri>/home/alberand/Documents/KiCAD/SparkFun-KiCad-Libraries/Libraries/SparkFun-Switches.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/home/alberand/Documents/KiCAD/kicad-symbols/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/INPUT">
+      <node ref="S1" pin="3"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="R18" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="Volume1" pin="3"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="R22" pin="2"/>
+      <node ref="J3" pin="G"/>
+      <node ref="R20" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="J2" pin="G"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="3" name="Net-(J3-PadT)">
+      <node ref="J3" pin="T"/>
+    </net>
+    <net code="4" name="Net-(J2-PadT)">
+      <node ref="J2" pin="T"/>
+    </net>
+    <net code="5" name="Net-(C13-Pad2)">
+      <node ref="C13" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="Q4" pin="2"/>
+    </net>
+    <net code="6" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1"/>
+      <node ref="Volume1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(J3-PadS)">
+      <node ref="J3" pin="S"/>
+      <node ref="S1" pin="5"/>
+    </net>
+    <net code="8" name="Net-(S1-Pad1)">
+      <node ref="S1" pin="1"/>
+      <node ref="S1" pin="4"/>
+    </net>
+    <net code="9" name="Net-(D5-Pad1)">
+      <node ref="R23" pin="2"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="10" name="Net-(J2-PadS)">
+      <node ref="J2" pin="S"/>
+      <node ref="S1" pin="2"/>
+    </net>
+    <net code="11" name="/OUTPUT">
+      <node ref="TP6" pin="1"/>
+      <node ref="Volume1" pin="2"/>
+      <node ref="S1" pin="6"/>
+    </net>
+    <net code="12" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="Tone1" pin="1"/>
+    </net>
+    <net code="13" name="Net-(BT1-Pad1)">
+      <node ref="BT1" pin="1"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="14" name="Net-(C6-Pad1)">
+      <node ref="D1" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="TP3" pin="1"/>
+    </net>
+    <net code="15" name="Net-(D6-Pad1)">
+      <node ref="SW1" pin="2"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="16" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="17" name="Net-(S1-Pad8)">
+      <node ref="S1" pin="8"/>
+    </net>
+    <net code="18" name="Net-(S1-Pad9)">
+      <node ref="S1" pin="9"/>
+    </net>
+    <net code="19" name="Net-(S1-Pad7)">
+      <node ref="S1" pin="7"/>
+    </net>
+    <net code="20" name="Net-(C12-Pad2)">
+      <node ref="Tone1" pin="2"/>
+      <node ref="TP5" pin="1"/>
+      <node ref="C12" pin="2"/>
+    </net>
+    <net code="21" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="22" name="Net-(Q4-Pad3)">
+      <node ref="Q4" pin="3"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="23" name="+9V">
+      <node ref="SW1" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="D5" pin="2"/>
+      <node ref="R19" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="24" name="Net-(SW1-Pad3)">
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="25" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="26" name="Net-(C11-Pad1)">
+      <node ref="R17" pin="1"/>
+      <node ref="Tone1" pin="3"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="27" name="Net-(C12-Pad1)">
+      <node ref="R19" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="28" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="Sustain1" pin="1"/>
+    </net>
+    <net code="29" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="30" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2"/>
+      <node ref="Sustain1" pin="2"/>
+    </net>
+    <net code="31" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="32" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="Sustain1" pin="3"/>
+    </net>
+    <net code="33" name="Net-(C5-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="34" name="Net-(C2-Pad1)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="TP2" pin="1"/>
+    </net>
+    <net code="35" name="Net-(C1-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="36" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="37" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="38" name="Net-(C8-Pad1)">
+      <node ref="D4" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="39" name="Net-(C10-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="R17" pin="2"/>
+      <node ref="C10" pin="2"/>
+    </net>
+    <net code="40" name="Net-(C8-Pad2)">
+      <node ref="C8" pin="2"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="41" name="Net-(C5-Pad2)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R9" pin="2"/>
+    </net>
+  </nets>
+</export>
