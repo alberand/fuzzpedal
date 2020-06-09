@@ -221,7 +221,7 @@
     (pad 3 thru_hole circle (at -7.4 -2.5 90) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask)
       (net 17 "Net-(C11-Pad1)"))
     (model ${KIPRJMOD}/3dmodels/RK09K1130-20-1.step
-      (offset (xyz 7 2.5 6.5))
+      (offset (xyz -0.5 0 6.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 -90))
     )
