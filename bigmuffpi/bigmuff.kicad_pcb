@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 52)
-    (tracks 304)
+    (tracks 306)
     (zones 0)
     (modules 71)
     (nets 39)
@@ -215,11 +215,6 @@
       (net 30 /INPUT))
     (pad 4 thru_hole oval (at 0 7.62 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 33 /OUTPUT))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5EEDE782) (tstamp 5EEE1C14)
@@ -258,11 +253,6 @@
       (net 1 GND))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 22 +9V))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5EEDE88E) (tstamp 5EEE19BE)
@@ -301,11 +291,6 @@
       (net 30 /INPUT))
     (pad 4 thru_hole oval (at 0 7.62 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 33 /OUTPUT))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5EEDE6D5) (tstamp 5EEE19A5)
@@ -344,11 +329,6 @@
       (net 1 GND))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 22 +9V))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module MouseBite:mouse-bite-2mm-slot (layer F.Cu) (tedit 551DB891) (tstamp 5EE2F3EE)
@@ -3344,6 +3324,8 @@
   (via (at 120 110) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
   (via (at 122 110) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
   (via (at 120 108) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
+  (via (at 128 111) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
+  (via (at 130 110) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
   (segment (start 144.82 57.2) (end 157.5 57.2) (width 1) (layer B.Cu) (net 2))
   (segment (start 138.5 63.52) (end 144.82 57.2) (width 1) (layer B.Cu) (net 2))
   (segment (start 122.9 111.6) (end 125.6 114.3) (width 1) (layer F.Cu) (net 3))
@@ -4631,6 +4613,18 @@
         (xy 122.210048 52.831524) (xy 122.21443 52.823417) (xy 122.58093 52.134133) (xy 122.603729 52.078818) (xy 122.62729 52.023846)
         (xy 122.630015 52.015043) (xy 122.855652 51.267698) (xy 122.867277 51.208989) (xy 122.879708 51.150506) (xy 122.880671 51.141341)
         (xy 122.898452 50.96) (xy 142.827101 50.96)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 130.781423 109.377501) (xy 130.759509 109.6) (xy 130.781423 109.822499) (xy 130.846324 110.036447) (xy 130.951716 110.233623)
+        (xy 131.093551 110.406449) (xy 131.136865 110.441996) (xy 131.165002 110.470133) (xy 131.165002 110.609491) (xy 130.941335 110.565)
+        (xy 130.658665 110.565) (xy 130.381426 110.620147) (xy 130.120273 110.72832) (xy 129.885241 110.885363) (xy 129.685363 111.085241)
+        (xy 129.52832 111.320273) (xy 129.420147 111.581426) (xy 129.37215 111.822718) (xy 128.7364 112.458469) (xy 128.735 112.444257)
+        (xy 128.735 112.444248) (xy 128.718577 112.277501) (xy 128.653676 112.063553) (xy 128.548284 111.866377) (xy 128.406449 111.693551)
+        (xy 128.36314 111.658008) (xy 127.334999 110.629868) (xy 127.334999 109.490509) (xy 127.558665 109.535) (xy 127.841335 109.535)
+        (xy 128.118574 109.479853) (xy 128.379727 109.37168) (xy 128.584284 109.235) (xy 130.544249 109.235) (xy 130.6 109.240491)
+        (xy 130.655751 109.235) (xy 130.655752 109.235) (xy 130.822499 109.218577) (xy 130.830355 109.216194)
       )
     )
     (filled_polygon
