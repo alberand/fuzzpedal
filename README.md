@@ -3,12 +3,17 @@
 This is copy of the well-known Big Muff PI pedal based on ElectroSmash's
 schematics.
 
-TODO
+### Schematics
 
-* Fixable Barrel jack
-* 1/4 audio jacks
-* power LED
-* Power switch on the side
+[![BigMuffPi fuzzbox schematics](./bigmuff-schematics.png)](./bigmuff-schematics.pdf)
+
+### 3D Render of PCB
+
+![BigMuffPi fuzzbox render](./bigmuff.png)
+
+## Notes
+
+TODO
 * Add rubber feets:
   http://www.diyguitarpedals.com.au/shop/index.php?main_page=product_info&cPath=15&products_id=591
 
