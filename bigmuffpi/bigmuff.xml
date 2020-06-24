@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/alberand/Projects/bigmuffpi/bigmuffpi/bigmuff.sch</source>
-    <date>Sun 21 Jun 2020 07:47:08 PM CEST</date>
+    <date>Wed 24 Jun 2020 07:42:37 PM CEST</date>
     <tool>Eeschema 5.1.5</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -20,12 +20,12 @@
   </design>
   <components>
     <comp ref="R1">
-      <value>30K</value>
+      <value>39K</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <datasheet>https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf</datasheet>
       <fields>
-        <field name="Mfr. No">CFR-12JB-52-30K</field>
-        <field name="Mouser">603-CFR-12JB-52-30K</field>
+        <field name="Mfr. No">CFR-12JR-52-39K</field>
+        <field name="Mouser">603-CFR-12JR-52-39K</field>
         <field name="Supplier">Mouser</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1142,12 +1142,12 @@
       <node ref="J5" pin="T"/>
       <node ref="S1" pin="2"/>
     </net>
-    <net code="17" name="Net-(S1-Pad9)">
-      <node ref="S1" pin="9"/>
+    <net code="17" name="Net-(S1-Pad7)">
+      <node ref="S1" pin="7"/>
     </net>
     <net code="18" name="Net-(D5-Pad2)">
       <node ref="D5" pin="2"/>
-      <node ref="S1" pin="7"/>
+      <node ref="S1" pin="9"/>
     </net>
     <net code="19" name="Net-(D5-Pad1)">
       <node ref="D5" pin="1"/>
