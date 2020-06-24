@@ -1,5 +1,5 @@
 Reference, Value, Footprint, Datasheet, Mfr. No, Mouser, Supplier, LCSC, Aliexpress, Comment, Field4
-"R1","39K","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf","CFR-12JR-52-39K","603-CFR-12JR-52-39K","Mouser","","","",""
+"R1","39K","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf","CFR-12JB-52-39K","603-CFR-12JB-52-39K","Mouser","","","",""
 "C1","1uF","Capacitor_THT:CP_Radial_D5.0mm_P2.00mm","https://cz.mouser.com/datasheet/2/445/860020672005-1725471.pdf","860020672005","710-860020672005","Mouser","","","",""
 "Q1","BC239","Package_TO_SOT_THT:TO-92L_Inline","https://cz.mouser.com/datasheet/2/308/BC550-D-1802078.pdf","BC549CTA","512-BC549CTA","Mouser","","","",""
 "R5","100","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf","CFR-12JT-52-100R","603-CFR-12JT-52-100R","Mouser","","","",""
@@ -32,7 +32,7 @@ Reference, Value, Footprint, Datasheet, Mfr. No, Mouser, Supplier, LCSC, Aliexpr
 "R16","150","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf","CFR-12JT-52-150R","603-CFR-12JT-52-150R","Mouser","","","",""
 "Tone1","100K","Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical","https://cz.mouser.com/datasheet/2/15/RK09K-771158.pdf","RK09D113BF25B15","688-RK09D113BF25B15","Mouser","","","",""
 "C10","3.9nF","Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2","https://cz.mouser.com/datasheet/2/440/e_WIMA_FKP_2-1139852.pdf","FKP2C013901D00HC00","505-FKP2C013901DHC00","Mouser","","","",""
-"R17","39K","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf","CFR-12JR-52-39K","603-CFR-12JR-52-39K","Mouser","","","",""
+"R17","39K","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf","CFR-12JB-52-39K","603-CFR-12JB-52-39K","Mouser","","","",""
 "R18","22K","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","https://cz.mouser.com/datasheet/2/447/yageo_yagos02873-1-1745585.pdf","CFR-12JT-52-22K ","603-CFR-12JT-52-22K ","Mouser","","","",""
 "C12","100nF","Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2","https://www.tdk-electronics.tdk.com/inf/20/20/db/fc_2009/B32520_529.pdf","B32529C104K000","871-B32529C104K000","Mouser","","","",""
 "Q4","BC239","Package_TO_SOT_THT:TO-92L_Inline","https://cz.mouser.com/datasheet/2/308/BC550-D-1802078.pdf","BC549CTA","512-BC549CTA","Mouser","","","",""
