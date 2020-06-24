@@ -9,7 +9,7 @@ schematics.
 
 ### 3D Render of PCB
 
-![BigMuffPi fuzzbox render](./bigmuff.png)
+![BigMuffPi fuzzbox render](./bigmuff-pcb-render.png)
 
 ## Notes
 
