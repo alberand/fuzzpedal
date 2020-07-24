@@ -7,6 +7,10 @@ schematics.
 
 [![BigMuffPi fuzzbox schematics](./bigmuff-schematics.png)](./bigmuff-schematics.pdf)
 
+### PCB dimensions
+
+[![BigMuffPi PCB](./pcb.png)](./pcb.pdf)
+
 ### 3D Render of PCB
 
 ![BigMuffPi fuzzbox render](./bigmuff-pcb-render.png)
