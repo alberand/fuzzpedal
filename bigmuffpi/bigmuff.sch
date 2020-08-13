@@ -1041,29 +1041,16 @@ Tone
 Text Notes 9050 2300 0    129  ~ 0
 Output Booster
 $Comp
-L power:GND #PWR020
-U 1 1 5EDC192C
-P 2300 6550
-F 0 "#PWR020" H 2300 6300 50  0001 C CNN
-F 1 "GND" H 2305 6377 50  0000 C CNN
-F 2 "" H 2300 6550 50  0001 C CNN
-F 3 "" H 2300 6550 50  0001 C CNN
-	1    2300 6550
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+9V #PWR019
 U 1 1 5EDC6BC5
-P 3300 5700
-F 0 "#PWR019" H 3300 5550 50  0001 C CNN
-F 1 "+9V" H 3315 5873 50  0000 C CNN
-F 2 "" H 3300 5700 50  0001 C CNN
-F 3 "" H 3300 5700 50  0001 C CNN
-	1    3300 5700
+P 3100 5750
+F 0 "#PWR019" H 3100 5600 50  0001 C CNN
+F 1 "+9V" H 3115 5923 50  0000 C CNN
+F 2 "" H 3100 5750 50  0001 C CNN
+F 3 "" H 3100 5750 50  0001 C CNN
+	1    3100 5750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2300 6550 2300 6450
 Text Label 1450 4000 2    50   ~ 0
 INPUT
 Wire Wire Line
@@ -1105,7 +1092,7 @@ Wire Notes Line
 	6200 5350 3550 5350
 Text Notes 3700 5300 0    129  ~ 0
 Foot Switch\n
-Text Notes 1300 5300 0    129  ~ 0
+Text Notes 1550 5300 0    129  ~ 0
 Power
 $Comp
 L Device:R_POT Sustain1
@@ -1193,26 +1180,6 @@ F 6 "Mouser" H 7000 3800 50  0001 C CNN "Supplier"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW1
-U 1 1 5EF7480B
-P 3000 5900
-F 0 "SW1" H 3000 6185 50  0000 C CNN
-F 1 "POWER" H 3000 6094 50  0000 C CNN
-F 2 "bigmuffpi:E-SWITCH-100SP3T2B4M6RE" H 3000 5900 50  0001 C CNN
-F 3 "https://cz.mouser.com/datasheet/2/140/100-1079940.pdf" H 3000 5900 50  0001 C CNN
-F 4 "100SP3T2B4M6RE" H 3000 5900 50  0001 C CNN "Mfr. No"
-F 5 "612-100-A1111" H 3000 5900 50  0001 C CNN "Mouser"
-F 6 "LCSC" H 3000 5900 50  0001 C CNN "Supplier"
-F 7 "C273357" H 3000 5900 50  0001 C CNN "LCSC"
-	1    3000 5900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3200 5800 3300 5800
-Wire Wire Line
-	3300 5800 3300 5700
-NoConn ~ 3200 6000
-$Comp
 L SparkFun-Switches:3PDT-foot-switch S1
 U 1 1 5F097466
 P 4850 6000
@@ -1232,94 +1199,43 @@ $EndComp
 $Comp
 L Connector:Barrel_Jack_Switch J1
 U 1 1 5F0D54E6
-P 1650 5850
-F 0 "J1" H 1707 6167 50  0000 C CNN
-F 1 "PWR JACK" H 1707 6076 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1700 5810 50  0001 C CNN
-F 3 "https://www.aliexpress.com/wholesale?catId=0&SearchText=panel+mount+barrel+jack" H 1700 5810 50  0001 C CNN
-F 4 "" H 1650 5850 50  0001 C CNN "LCSC"
-F 5 "" H 1650 5850 50  0001 C CNN "Mfr. No"
-F 6 "Aliexpress" H 1650 5850 50  0001 C CNN "Supplier"
-	1    1650 5850
+P 1950 5750
+F 0 "J1" H 2007 6067 50  0000 C CNN
+F 1 "PWR JACK" H 2007 5976 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2000 5710 50  0001 C CNN
+F 3 "https://www.aliexpress.com/wholesale?catId=0&SearchText=panel+mount+barrel+jack" H 2000 5710 50  0001 C CNN
+F 4 "" H 1950 5750 50  0001 C CNN "LCSC"
+F 5 "" H 1950 5750 50  0001 C CNN "Mfr. No"
+F 6 "Aliexpress" H 1950 5750 50  0001 C CNN "Supplier"
+	1    1950 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D6
 U 1 1 5F0DF5EC
-P 2550 5750
-F 0 "D6" H 2550 5550 50  0000 C CNN
-F 1 "1N914" H 2550 5650 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2550 5750 50  0001 C CNN
-F 3 "https://cz.mouser.com/datasheet/2/308/1N914-D-1801484.pdf" H 2550 5750 50  0001 C CNN
-F 4 "C125665" H 2550 5750 50  0001 C CNN "LCSC"
-F 5 "1N914" H 2550 5750 50  0001 C CNN "Mfr. No"
-F 6 "512-1N914" H 2550 5750 50  0001 C CNN "Mouser"
-F 7 "Mouser" H 2550 5750 50  0001 C CNN "Supplier"
-	1    2550 5750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D7
-U 1 1 5F0E34F6
-P 2550 6050
-F 0 "D7" H 2550 5850 50  0000 C CNN
-F 1 "1N914" H 2550 5950 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2550 6050 50  0001 C CNN
-F 3 "https://cz.mouser.com/datasheet/2/308/1N914-D-1801484.pdf" H 2550 6050 50  0001 C CNN
-F 4 "C125665" H 2550 6050 50  0001 C CNN "LCSC"
-F 5 "1N914" H 2550 6050 50  0001 C CNN "Mfr. No"
-F 6 "512-1N914" H 2550 6050 50  0001 C CNN "Mouser"
-F 7 "Mouser" H 2550 6050 50  0001 C CNN "Supplier"
-	1    2550 6050
-	-1   0    0    1   
+P 3000 6000
+F 0 "D6" V 2950 6200 50  0000 C CNN
+F 1 "1N914" V 3050 6200 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3000 6000 50  0001 C CNN
+F 3 "https://cz.mouser.com/datasheet/2/308/1N914-D-1801484.pdf" H 3000 6000 50  0001 C CNN
+F 4 "C125665" H 3000 6000 50  0001 C CNN "LCSC"
+F 5 "1N914" H 3000 6000 50  0001 C CNN "Mfr. No"
+F 6 "512-1N914" H 3000 6000 50  0001 C CNN "Mouser"
+F 7 "Mouser" H 3000 6000 50  0001 C CNN "Supplier"
+	1    3000 6000
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR023
 U 1 1 5F12432A
-P 2050 6050
-F 0 "#PWR023" H 2050 5800 50  0001 C CNN
-F 1 "GND" H 2055 5877 50  0000 C CNN
-F 2 "" H 2050 6050 50  0001 C CNN
-F 3 "" H 2050 6050 50  0001 C CNN
-	1    2050 6050
+P 2400 5500
+F 0 "#PWR023" H 2400 5250 50  0001 C CNN
+F 1 "GND" H 2405 5327 50  0000 C CNN
+F 2 "" H 2400 5500 50  0001 C CNN
+F 3 "" H 2400 5500 50  0001 C CNN
+	1    2400 5500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1950 5950 2050 5950
-Wire Wire Line
-	2050 5950 2050 6050
-Wire Wire Line
-	1950 5850 2050 5850
-Wire Wire Line
-	2050 5850 2050 5950
-Connection ~ 2050 5950
-$Comp
-L Device:Battery_Cell BT1
-U 1 1 5F14DC7A
-P 2300 6350
-F 0 "BT1" H 2418 6446 50  0000 L CNN
-F 1 "Battery_Cell" H 2418 6355 50  0000 L CNN
-F 2 "LED_THT:LED_D5.0mm" V 2300 6410 50  0001 C CNN
-F 3 "https://cz.mouser.com/datasheet/2/215/9-745395.pdf" V 2300 6410 50  0001 C CNN
-F 4 "79 " H 2300 6350 50  0001 C CNN "Mfr. No"
-F 5 "534-079 " H 2300 6350 50  0001 C CNN "Mouser"
-F 6 "Mouser" H 2300 6350 50  0001 C CNN "Supplier"
-	1    2300 6350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 6150 2300 6050
-Wire Wire Line
-	2300 6050 2400 6050
-Wire Wire Line
-	1950 5750 2400 5750
-Wire Wire Line
-	2700 5750 2700 5900
-Wire Wire Line
-	2700 5900 2800 5900
-Connection ~ 2700 5900
-Wire Wire Line
-	2700 5900 2700 6050
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5F1F2FF8
@@ -1470,14 +1386,6 @@ Wire Wire Line
 	4500 6100 4500 6450
 Wire Wire Line
 	3950 5900 4650 5900
-Wire Notes Line
-	3450 5350 3450 6800
-Wire Notes Line
-	1200 5350 3450 5350
-Wire Notes Line
-	3450 6800 1200 6800
-Wire Notes Line
-	1200 6800 1200 5350
 Wire Wire Line
 	4600 6450 4600 6500
 Wire Wire Line
@@ -1592,4 +1500,61 @@ Wire Notes Line
 	3550 5350 3550 7650
 Wire Notes Line
 	6200 5350 6200 7650
+Wire Wire Line
+	2250 5750 2300 5750
+Wire Wire Line
+	2250 5850 2300 5850
+Wire Wire Line
+	2300 5850 2300 5750
+Wire Wire Line
+	2250 5650 2250 5450
+$Comp
+L SparkFun-Fuses:PPTC_HALF-AMP F?
+U 1 1 5F449675
+P 2600 5750
+F 0 "F?" H 2650 5650 45  0000 C CNN
+F 1 "PPTC_HALF-AMP" H 2650 5550 45  0000 C CNN
+F 2 "1206" H 2600 5950 20  0001 C CNN
+F 3 "" H 2600 5750 50  0001 C CNN
+F 4 "RES-08585" H 2650 5450 60  0000 C CNN "Field4"
+	1    2600 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F44D824
+P 3000 6250
+F 0 "#PWR?" H 3000 6000 50  0001 C CNN
+F 1 "GND" H 3005 6077 50  0000 C CNN
+F 2 "" H 3000 6250 50  0001 C CNN
+F 3 "" H 3000 6250 50  0001 C CNN
+	1    3000 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 6250 3000 6150
+Wire Wire Line
+	2900 5750 3000 5750
+Wire Wire Line
+	2400 5750 2300 5750
+Connection ~ 2300 5750
+Wire Wire Line
+	3000 5850 3000 5750
+Connection ~ 3000 5750
+Wire Wire Line
+	3000 5750 3100 5750
+Wire Wire Line
+	2250 5450 2400 5450
+Wire Wire Line
+	2400 5450 2400 5500
+Text Notes 1700 6400 0    50   ~ 0
+Reverse Polarity Protection\nPPTC behaves like a fuse\nIt's based on the temperature
+Wire Notes Line
+	1450 5350 1450 6500
+Wire Notes Line
+	1450 6500 3450 6500
+Wire Notes Line
+	3450 6500 3450 5350
+Wire Notes Line
+	1450 5350 3450 5350
 $EndSCHEMATC
