@@ -1183,11 +1183,11 @@ $Comp
 L SparkFun-Switches:3PDT-foot-switch S1
 U 1 1 5F097466
 P 4850 6000
-F 0 "S1" H 4850 6560 45  0000 C CNN
-F 1 "3PDT-foot-switch" H 4850 6476 45  0000 C CNN
+F 0 "S1" H 4850 6500 45  0000 C CNN
+F 1 "3PDT-foot-switch" H 4850 6400 45  0000 C CNN
 F 2 "bigmuffpi:SF17020F-0302-21R-L" H 4850 6450 20  0001 C CNN
 F 3 "https://cz.mouser.com/datasheet/2/13/SF17_SF12030F-1155740.pdf" H 4850 6000 50  0001 C CNN
-F 4 "SWCH-10554" H 4850 6381 60  0000 C CNN "Field4"
+F 4 "SWCH-10554" H 4850 6381 60  0001 C CNN "Field4"
 F 5 "3PDT 9-Pin" H 4850 6000 50  0001 C CNN "Mfr. No"
 F 6 "107-SF17020F-32-21RL" H 4850 6000 50  0001 C CNN "Mouser"
 F 7 "https://www.aliexpress.com/item/1761081145.html?spm=a2g0o.cart.0.0.9a9e3c00NMRYVw&mp=1" H 4850 6000 50  0001 C CNN "Aliexpress"
@@ -1509,10 +1509,10 @@ Wire Wire Line
 Wire Wire Line
 	2250 5650 2250 5450
 $Comp
-L SparkFun-Fuses:PPTC_HALF-AMP F?
+L SparkFun-Fuses:PPTC_HALF-AMP F1
 U 1 1 5F449675
 P 2600 5750
-F 0 "F?" H 2650 5650 45  0000 C CNN
+F 0 "F1" H 2650 5650 45  0000 C CNN
 F 1 "PPTC_HALF-AMP" H 2650 5550 45  0000 C CNN
 F 2 "1206" H 2600 5950 20  0001 C CNN
 F 3 "" H 2600 5750 50  0001 C CNN
@@ -1521,10 +1521,10 @@ F 4 "RES-08585" H 2650 5450 60  0000 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR020
 U 1 1 5F44D824
 P 3000 6250
-F 0 "#PWR?" H 3000 6000 50  0001 C CNN
+F 0 "#PWR020" H 3000 6000 50  0001 C CNN
 F 1 "GND" H 3005 6077 50  0000 C CNN
 F 2 "" H 3000 6250 50  0001 C CNN
 F 3 "" H 3000 6250 50  0001 C CNN
@@ -1548,7 +1548,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 5450 2400 5500
 Text Notes 1700 6400 0    50   ~ 0
-Reverse Polarity Protection\nPPTC behaves like a fuse\nIt's based on the temperature
+Reverse Polarity Protection\nPPTC behaves like a fuse\nbut it's not one-time use
 Wire Notes Line
 	1450 5350 1450 6500
 Wire Notes Line
@@ -1557,4 +1557,49 @@ Wire Notes Line
 	3450 6500 3450 5350
 Wire Notes Line
 	1450 5350 3450 5350
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F5852AE
+P 2450 3250
+F 0 "TP?" H 2300 3250 50  0000 R CNN
+F 1 "TestPoint" H 2400 3350 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 2650 3250 50  0001 C CNN
+F 3 "~" H 2650 3250 50  0001 C CNN
+F 4 "~" H 2450 3250 50  0001 C CNN "Supplier"
+	1    2450 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 3250 2450 3300
+Connection ~ 2450 3300
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F59ACBE
+P 4500 2500
+F 0 "TP?" H 4350 2500 50  0000 R CNN
+F 1 "TestPoint" H 4450 2600 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4700 2500 50  0001 C CNN
+F 3 "~" H 4700 2500 50  0001 C CNN
+F 4 "~" H 4500 2500 50  0001 C CNN "Supplier"
+	1    4500 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2500 4500 2550
+Connection ~ 4500 2550
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F5A9929
+P 6350 2500
+F 0 "TP?" H 6200 2500 50  0000 R CNN
+F 1 "TestPoint" H 6300 2600 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 6550 2500 50  0001 C CNN
+F 3 "~" H 6550 2500 50  0001 C CNN
+F 4 "~" H 6350 2500 50  0001 C CNN "Supplier"
+	1    6350 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 2500 6350 2550
+Connection ~ 6350 2550
 $EndSCHEMATC
