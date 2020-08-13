@@ -27,6 +27,10 @@ http://www.caravanelectroworks.com/?p=418
 Similar project:
 http://rezzonics.blogspot.com/2018/05/nutube-screamer-schematics-bom-layout.html
 
+Hammond case is from Aluminum
+
+Describe screen printing process
+
 ### References
 
 * [ElectroSmash - Big Muff PI analysis](https://www.electrosmash.com/big-muff-pi-analysis)
