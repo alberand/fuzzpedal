@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "BigMuff Pi fuzzbox"
 Date "2020-05-09"
-Rev "1.0"
+Rev "2.0"
 Comp "alberand"
 Comment1 "Copy of the Big Muff Pi based mainly on the excellent analysis from ElectroSmash"
 Comment2 "https://www.electrosmash.com/big-muff-pi-analysis"
