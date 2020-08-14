@@ -28,6 +28,7 @@ Similar project:
 http://rezzonics.blogspot.com/2018/05/nutube-screamer-schematics-bom-layout.html
 
 Hammond case is from Aluminum
+-> Use Enamel paint to paint aluminum enclosure
 
 Describe screen printing process
 
