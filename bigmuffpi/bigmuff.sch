@@ -42,7 +42,7 @@ F 6 "Mouser" H 2200 4000 50  0001 C CNN "Supplier"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Q_NPN_BCE Q1
+L Device:Q_NPN_CBE Q1
 U 1 1 5EB70D38
 P 2850 4000
 F 0 "Q1" H 3041 4046 50  0000 L CNN
@@ -277,7 +277,7 @@ F 6 "Mouser" H 4250 3800 50  0001 C CNN "Supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Q_NPN_BCE Q2
+L Device:Q_NPN_CBE Q2
 U 1 1 5EB996F1
 P 5150 3800
 F 0 "Q2" H 5341 3846 50  0000 L CNN
@@ -851,7 +851,7 @@ F 6 "Mouser" H 8800 3550 50  0001 C CNN "Supplier"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Q_NPN_BCE Q4
+L Device:Q_NPN_CBE Q4
 U 1 1 5EC2E896
 P 9350 3550
 F 0 "Q4" H 9541 3596 50  0000 L CNN
@@ -1166,7 +1166,7 @@ F 6 "Mouser" H 8200 4050 50  0001 C CNN "Supplier"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NPN_BCE Q3
+L Device:Q_NPN_CBE Q3
 U 1 1 5EBD96C1
 P 7000 3800
 F 0 "Q3" H 7191 3846 50  0000 L CNN
