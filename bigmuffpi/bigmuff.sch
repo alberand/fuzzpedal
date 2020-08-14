@@ -1043,12 +1043,12 @@ Output Booster
 $Comp
 L power:+9V #PWR019
 U 1 1 5EDC6BC5
-P 3100 5750
-F 0 "#PWR019" H 3100 5600 50  0001 C CNN
-F 1 "+9V" H 3115 5923 50  0000 C CNN
-F 2 "" H 3100 5750 50  0001 C CNN
-F 3 "" H 3100 5750 50  0001 C CNN
-	1    3100 5750
+P 3100 5650
+F 0 "#PWR019" H 3100 5500 50  0001 C CNN
+F 1 "+9V" H 3115 5823 50  0000 C CNN
+F 2 "" H 3100 5650 50  0001 C CNN
+F 3 "" H 3100 5650 50  0001 C CNN
+	1    3100 5650
 	1    0    0    -1  
 $EndComp
 Text Label 1450 4000 2    50   ~ 0
@@ -1092,7 +1092,7 @@ Wire Notes Line
 	6200 5350 3550 5350
 Text Notes 3700 5300 0    129  ~ 0
 Foot Switch\n
-Text Notes 1550 5300 0    129  ~ 0
+Text Notes 1200 5300 0    129  ~ 0
 Power
 $Comp
 L Device:R_POT Sustain1
@@ -1199,41 +1199,41 @@ $EndComp
 $Comp
 L Connector:Barrel_Jack_Switch J1
 U 1 1 5F0D54E6
-P 1950 5750
-F 0 "J1" H 2007 6067 50  0000 C CNN
-F 1 "PWR JACK" H 2007 5976 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2000 5710 50  0001 C CNN
-F 3 "https://www.aliexpress.com/wholesale?catId=0&SearchText=panel+mount+barrel+jack" H 2000 5710 50  0001 C CNN
-F 4 "" H 1950 5750 50  0001 C CNN "LCSC"
-F 5 "" H 1950 5750 50  0001 C CNN "Mfr. No"
-F 6 "Aliexpress" H 1950 5750 50  0001 C CNN "Supplier"
-	1    1950 5750
+P 1600 5750
+F 0 "J1" H 1657 6067 50  0000 C CNN
+F 1 "PWR JACK" H 1657 5976 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1650 5710 50  0001 C CNN
+F 3 "https://www.aliexpress.com/wholesale?catId=0&SearchText=panel+mount+barrel+jack" H 1650 5710 50  0001 C CNN
+F 4 "" H 1600 5750 50  0001 C CNN "LCSC"
+F 5 "" H 1600 5750 50  0001 C CNN "Mfr. No"
+F 6 "Aliexpress" H 1600 5750 50  0001 C CNN "Supplier"
+	1    1600 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D6
 U 1 1 5F0DF5EC
-P 3000 6000
-F 0 "D6" V 2950 6200 50  0000 C CNN
-F 1 "1N914" V 3050 6200 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3000 6000 50  0001 C CNN
-F 3 "https://cz.mouser.com/datasheet/2/308/1N914-D-1801484.pdf" H 3000 6000 50  0001 C CNN
-F 4 "C125665" H 3000 6000 50  0001 C CNN "LCSC"
-F 5 "1N914" H 3000 6000 50  0001 C CNN "Mfr. No"
-F 6 "512-1N914" H 3000 6000 50  0001 C CNN "Mouser"
-F 7 "Mouser" H 3000 6000 50  0001 C CNN "Supplier"
-	1    3000 6000
+P 2650 6000
+F 0 "D6" V 2600 6200 50  0000 C CNN
+F 1 "1N914" V 2700 6200 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2650 6000 50  0001 C CNN
+F 3 "https://cz.mouser.com/datasheet/2/308/1N914-D-1801484.pdf" H 2650 6000 50  0001 C CNN
+F 4 "C125665" H 2650 6000 50  0001 C CNN "LCSC"
+F 5 "1N914" H 2650 6000 50  0001 C CNN "Mfr. No"
+F 6 "512-1N914" H 2650 6000 50  0001 C CNN "Mouser"
+F 7 "Mouser" H 2650 6000 50  0001 C CNN "Supplier"
+	1    2650 6000
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR023
 U 1 1 5F12432A
-P 2400 5500
-F 0 "#PWR023" H 2400 5250 50  0001 C CNN
-F 1 "GND" H 2405 5327 50  0000 C CNN
-F 2 "" H 2400 5500 50  0001 C CNN
-F 3 "" H 2400 5500 50  0001 C CNN
-	1    2400 5500
+P 2050 5500
+F 0 "#PWR023" H 2050 5250 50  0001 C CNN
+F 1 "GND" H 2055 5327 50  0000 C CNN
+F 2 "" H 2050 5500 50  0001 C CNN
+F 3 "" H 2050 5500 50  0001 C CNN
+	1    2050 5500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1501,65 +1501,55 @@ Wire Notes Line
 Wire Notes Line
 	6200 5350 6200 7650
 Wire Wire Line
-	2250 5750 2300 5750
+	1900 5750 1950 5750
 Wire Wire Line
-	2250 5850 2300 5850
+	1900 5850 1950 5850
 Wire Wire Line
-	2300 5850 2300 5750
+	1950 5850 1950 5750
 Wire Wire Line
-	2250 5650 2250 5450
+	1900 5650 1900 5450
 $Comp
 L SparkFun-Fuses:PPTC_HALF-AMP F1
 U 1 1 5F449675
-P 2600 5750
-F 0 "F1" H 2650 5650 45  0000 C CNN
-F 1 "PPTC" H 2650 5550 45  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 2600 5950 20  0001 C CNN
-F 3 "https://cz.mouser.com/datasheet/2/54/mfr-777680.pdf" H 2600 5750 50  0001 C CNN
-F 4 "RES-08585" H 2650 5450 60  0001 C CNN "Field4"
-F 5 "MF-R020" H 2600 5750 50  0001 C CNN "Mfr. No"
-F 6 "652-MF-R020 " H 2600 5750 50  0001 C CNN "Mouser"
-F 7 "Mouser" H 2600 5750 50  0001 C CNN "Supplier"
-	1    2600 5750
+P 2250 5750
+F 0 "F1" H 2300 5650 45  0000 C CNN
+F 1 "PPTC" H 2300 5550 45  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm" H 2250 5950 20  0001 C CNN
+F 3 "https://cz.mouser.com/datasheet/2/54/mfr-777680.pdf" H 2250 5750 50  0001 C CNN
+F 4 "RES-08585" H 2300 5450 60  0001 C CNN "Field4"
+F 5 "MF-R020" H 2250 5750 50  0001 C CNN "Mfr. No"
+F 6 "652-MF-R020 " H 2250 5750 50  0001 C CNN "Mouser"
+F 7 "Mouser" H 2250 5750 50  0001 C CNN "Supplier"
+	1    2250 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR020
 U 1 1 5F44D824
-P 3000 6250
-F 0 "#PWR020" H 3000 6000 50  0001 C CNN
-F 1 "GND" H 3005 6077 50  0000 C CNN
-F 2 "" H 3000 6250 50  0001 C CNN
-F 3 "" H 3000 6250 50  0001 C CNN
-	1    3000 6250
+P 2650 6250
+F 0 "#PWR020" H 2650 6000 50  0001 C CNN
+F 1 "GND" H 2655 6077 50  0000 C CNN
+F 2 "" H 2650 6250 50  0001 C CNN
+F 3 "" H 2650 6250 50  0001 C CNN
+	1    2650 6250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 6250 3000 6150
+	2650 6250 2650 6150
 Wire Wire Line
-	2900 5750 3000 5750
+	2550 5750 2650 5750
 Wire Wire Line
-	2400 5750 2300 5750
-Connection ~ 2300 5750
+	2050 5750 1950 5750
+Connection ~ 1950 5750
 Wire Wire Line
-	3000 5850 3000 5750
-Connection ~ 3000 5750
+	2650 5850 2650 5750
+Connection ~ 2650 5750
 Wire Wire Line
-	3000 5750 3100 5750
+	1900 5450 2050 5450
 Wire Wire Line
-	2250 5450 2400 5450
-Wire Wire Line
-	2400 5450 2400 5500
-Text Notes 1700 6400 0    50   ~ 0
+	2050 5450 2050 5500
+Text Notes 1350 6400 0    50   ~ 0
 Reverse Polarity Protection\nPPTC behaves like a fuse\nbut it's not one-time use
-Wire Notes Line
-	1450 5350 1450 6500
-Wire Notes Line
-	1450 6500 3450 6500
-Wire Notes Line
-	3450 6500 3450 5350
-Wire Notes Line
-	1450 5350 3450 5350
 $Comp
 L Connector:TestPoint TP7
 U 1 1 5F5852AE
@@ -1605,4 +1595,46 @@ $EndComp
 Wire Wire Line
 	6350 2500 6350 2550
 Connection ~ 6350 2550
+$Comp
+L Device:CP1 C14
+U 1 1 5F60714F
+P 3100 6000
+F 0 "C14" H 3300 6050 50  0000 C CNN
+F 1 "1uF" H 3300 5950 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 3100 6000 50  0001 C CNN
+F 3 "https://cz.mouser.com/datasheet/2/445/860020672005-1725471.pdf" H 3100 6000 50  0001 C CNN
+F 4 "860020672005" H 3100 6000 50  0001 C CNN "Mfr. No"
+F 5 "710-860020672005" H 3100 6000 50  0001 C CNN "Mouser"
+F 6 "Mouser" H 3100 6000 50  0001 C CNN "Supplier"
+	1    3100 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR024
+U 1 1 5F64BA01
+P 3100 6250
+F 0 "#PWR024" H 3100 6000 50  0001 C CNN
+F 1 "GND" H 3105 6077 50  0000 C CNN
+F 2 "" H 3100 6250 50  0001 C CNN
+F 3 "" H 3100 6250 50  0001 C CNN
+	1    3100 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 6250 3100 6150
+Wire Wire Line
+	3100 5750 3100 5850
+Wire Wire Line
+	2650 5750 3100 5750
+Wire Wire Line
+	3100 5650 3100 5750
+Connection ~ 3100 5750
+Wire Notes Line
+	3400 5350 3400 6550
+Wire Notes Line
+	3400 6550 1100 6550
+Wire Notes Line
+	1100 5350 1100 6550
+Wire Notes Line
+	1100 5350 3400 5350
 $EndSCHEMATC
