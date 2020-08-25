@@ -1637,7 +1637,7 @@ U 1 1 5F45FE6C
 P 7550 5850
 F 0 "J3" H 7500 6100 50  0000 L CNN
 F 1 "Wire connector (circuit)" H 7500 6100 50  0001 L CNN
-F 2 "" H 7550 5850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7550 5850 50  0001 C CNN
 F 3 "~" H 7550 5850 50  0001 C CNN
 	1    7550 5850
 	-1   0    0    -1  
@@ -1690,7 +1690,7 @@ U 1 1 5F4B5E99
 P 7100 5850
 F 0 "J2" H 7050 6100 50  0000 L CNN
 F 1 "Wire connector (smol)" H 7050 6100 50  0001 L CNN
-F 2 "" H 7100 5850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7100 5850 50  0001 C CNN
 F 3 "~" H 7100 5850 50  0001 C CNN
 	1    7100 5850
 	1    0    0    -1  
@@ -1748,21 +1748,21 @@ Wire Notes Line
 Text Notes 6450 5300 0    129  ~ 0
 Wire connector
 $Comp
-L Connector_Generic:Conn_01x01 J?
+L Connector_Generic:Conn_01x01 J6
 U 1 1 5F5C22D3
 P 9350 5500
-F 0 "J?" V 9268 5412 50  0000 R CNN
+F 0 "J6" V 9268 5412 50  0000 R CNN
 F 1 "GND for scope" V 9223 5412 50  0001 R CNN
-F 2 "" H 9350 5500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9350 5500 50  0001 C CNN
 F 3 "~" H 9350 5500 50  0001 C CNN
 	1    9350 5500
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR029
 U 1 1 5F5C3191
 P 9350 5750
-F 0 "#PWR?" H 9350 5500 50  0001 C CNN
+F 0 "#PWR029" H 9350 5500 50  0001 C CNN
 F 1 "GND" H 9355 5577 50  0000 C CNN
 F 2 "" H 9350 5750 50  0001 C CNN
 F 3 "" H 9350 5750 50  0001 C CNN
