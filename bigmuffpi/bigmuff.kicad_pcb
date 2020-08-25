@@ -3588,7 +3588,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_2.0x2.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5F3696E2)
-    (at 194.475001 86.925001)
+    (at 129.8 87.8)
     (descr "SMD rectangular pad as test Point, square 2.0mm side length")
     (tags "test point SMD pad rectangle square")
     (path /5F5852AE)
@@ -3615,7 +3615,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_2.0x2.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5F3696F0)
-    (at 191.555001 90.975001)
+    (at 156.1 94.8)
     (descr "SMD rectangular pad as test Point, square 2.0mm side length")
     (tags "test point SMD pad rectangle square")
     (path /5F59ACBE)
@@ -3642,7 +3642,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_2.0x2.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5F3696FE)
-    (at 198.525001 86.925001)
+    (at 174.8 89.7)
     (descr "SMD rectangular pad as test Point, square 2.0mm side length")
     (tags "test point SMD pad rectangle square")
     (path /5F5A9929)
