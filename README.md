@@ -32,6 +32,12 @@ Hammond case is from Aluminum
 
 Describe screen printing process
 
+## Cost
+
+TODO
+* Calculate BOM
+* Time consumption?
+
 ## Assembling process
 
 TODO In progress
@@ -76,3 +82,4 @@ TODO describe what instruments to use
 ### References
 
 * [ElectroSmash - Big Muff PI analysis](https://www.electrosmash.com/big-muff-pi-analysis)
+* [How to "Screen printing"](https://www.youtube.com/watch?v=NS8Q9LUIKA8)
