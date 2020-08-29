@@ -212,6 +212,11 @@
       (net 31 "Net-(S1-Pad1)"))
     (pad 5 thru_hole oval (at 0 0) (size 4 2.4) (drill oval 2.4 1.2) (layers *.Cu *.Mask)
       (net 32 "Net-(J4-PadT)"))
+    (model ${KIPRJMOD}/3dmodels/Footswich_3PDT.step
+      (offset (xyz 0 0 17))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module bigmuffpi:NMJ6HC-S (layer F.Cu) (tedit 5F4A189B) (tstamp 5F4A1C78)
@@ -243,6 +248,11 @@
       (net 1 GND))
     (pad T thru_hole oval (at -6.35 -8.115) (size 5.5 2.5) (drill oval 3.6 1.2) (layers *.Cu *.Mask)
       (net 30 "Net-(J5-PadT)"))
+    (model ${KIPRJMOD}/3dmodels/NMJ4HC-S.step
+      (offset (xyz 10.5 0 8.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 -180))
+    )
   )
 
   (module bigmuffpi:NMJ6HC-S (layer F.Cu) (tedit 5F4A189B) (tstamp 5F1BA0FF)
@@ -274,6 +284,11 @@
       (net 1 GND))
     (pad T thru_hole oval (at -6.35 -8.115 180) (size 5.5 2.5) (drill oval 3.6 1.2) (layers *.Cu *.Mask)
       (net 32 "Net-(J4-PadT)"))
+    (model ${KIPRJMOD}/3dmodels/NMJ4HC-S.step
+      (offset (xyz 10.5 0 8.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 -180))
+    )
   )
 
   (module Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical (layer F.Cu) (tedit 5F47FB1D) (tstamp 5F1B963B)
@@ -317,7 +332,7 @@
     (pad 3 thru_hole circle (at -7.5 -2.5 90) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask)
       (net 1 GND))
     (model ${KIPRJMOD}/3dmodels/RK09K1130-20-1.step
-      (offset (xyz 7 2.5 6.5))
+      (offset (xyz -0.5 0 6.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 -90))
     )
@@ -364,7 +379,7 @@
     (pad 3 thru_hole circle (at -7.5 -2.5 90) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask)
       (net 28 "Net-(R6-Pad1)"))
     (model ${KIPRJMOD}/3dmodels/RK09K1130-20-1.step
-      (offset (xyz 7 2.5 6.5))
+      (offset (xyz -0.5 0 6.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 -90))
     )
