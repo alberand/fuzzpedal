@@ -1637,7 +1637,7 @@ U 1 1 5F45FE6C
 P 7550 5850
 F 0 "J3" H 7500 6100 50  0000 L CNN
 F 1 "Wire connector (circuit)" H 7500 6100 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7550 5850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7550 5850 50  0001 C CNN
 F 3 "~" H 7550 5850 50  0001 C CNN
 	1    7550 5850
 	-1   0    0    -1  
@@ -1690,7 +1690,7 @@ U 1 1 5F4B5E99
 P 7100 5850
 F 0 "J2" H 7050 6100 50  0000 L CNN
 F 1 "Wire connector (smol)" H 7050 6100 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7100 5850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7100 5850 50  0001 C CNN
 F 3 "~" H 7100 5850 50  0001 C CNN
 	1    7100 5850
 	1    0    0    -1  
