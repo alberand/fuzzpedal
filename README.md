@@ -17,7 +17,7 @@ schematics.
 
 ### Photo of PCB
 
-![Photo of BigMuffPI PCB](./pcb-photo.png)
+![Photo of BigMuffPI PCB](./pcb-photo.jpg)
 
 ## Notes
 
