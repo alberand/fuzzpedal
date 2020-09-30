@@ -15,6 +15,10 @@ schematics.
 
 ![BigMuffPi fuzzbox render](./bigmuff-pcb-render.png)
 
+### Photo of PCB
+
+![Photo of BigMuffPI PCB](./pcb-photo.png)
+
 ## Notes
 
 TODO
