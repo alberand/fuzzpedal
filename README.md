@@ -19,7 +19,7 @@ schematics.
 
 ### Photo of PCB
 
-![Photo of BigMuffPI PCB](./photos/pcb-photo2.jpg)
+![Photo of BigMuffPI PCB](./photos/pcb-photo2.png)
 
 ### Photo of assembled pedal
 
