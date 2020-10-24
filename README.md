@@ -1,23 +1,29 @@
-## Big Muff PI fuzzbox pedal
+## Fuzz Pedal
 
-This is copy of the well-known Big Muff PI pedal based on ElectroSmash's
+![DIY Fuzz Pedal](./photos/composition-photo.jpg)
+
+This is Fuzz Pedal based on well-known Big Muff PI pedal based on ElectroSmash's
 schematics.
 
 ### Schematics
 
-[![BigMuffPi fuzzbox schematics](./bigmuff-schematics.png)](./bigmuff-schematics.pdf)
+[![Fuzz Pedal schematics](./photos/bigmuff-schematics.png)](./bigmuff-schematics.pdf)
 
 ### PCB dimensions
 
-[![BigMuffPi PCB](./pcb.png)](./pcb.pdf)
+[![Fuzz Pedal PCB](./photos/pcb.png)](./pcb.pdf)
 
 ### 3D Render of PCB
 
-![BigMuffPi fuzzbox render](./bigmuff-pcb-render.png)
+![Fuzz Pedal render](./photos/bigmuff-pcb-render.png)
 
 ### Photo of PCB
 
-![Photo of BigMuffPI PCB](./pcb-photo.jpg)
+![Photo of BigMuffPI PCB](./photos/pcb-photo.jpg)
+
+### Photo of assembled pedal
+
+![Photo of assembled Fuzz Pedal](./photos/pedal-photo1.jpg)
 
 ## Notes
 
