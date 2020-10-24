@@ -1,9 +1,7 @@
-## Fuzz Pedal
-
 ![DIY Fuzz Pedal](./photos/composition-photo.png)
 
-This is Fuzz Pedal based on well-known Big Muff PI pedal based on ElectroSmash's
-schematics.
+This repository contains a lot of information on how to build a Fuzz Pedal based
+on well-known Big Muff PI pedal based on ElectroSmash's schematics.
 
 ### Schematics
 
