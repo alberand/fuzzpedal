@@ -1,6 +1,6 @@
 ## Fuzz Pedal
 
-![DIY Fuzz Pedal](./photos/composition-photo.jpg)
+![DIY Fuzz Pedal](./photos/composition-photo.png)
 
 This is Fuzz Pedal based on well-known Big Muff PI pedal based on ElectroSmash's
 schematics.
@@ -23,7 +23,7 @@ schematics.
 
 ### Photo of assembled pedal
 
-![Photo of assembled Fuzz Pedal](./photos/pedal-photo1.jpg)
+![Photo of assembled Fuzz Pedal](./photos/pedal-photo1.png)
 
 ## Notes
 
