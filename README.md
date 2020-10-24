@@ -26,19 +26,13 @@ on well-known Big Muff PI pedal based on ElectroSmash's schematics.
 ## Notes
 
 TODO
-* Add rubber feets:
-  http://www.diyguitarpedals.com.au/shop/index.php?main_page=product_info&cPath=15&products_id=591
-
-Very good template for KiCad:
-http://www.caravanelectroworks.com/?p=418
-
-Similar project:
-http://rezzonics.blogspot.com/2018/05/nutube-screamer-schematics-bom-layout.html
-
-Hammond case is from Aluminum
--> Use Enamel paint to paint aluminum enclosure
-
-Describe screen printing process
+* Add [rubber feets][1]
+* Write article on how to paint Aluminum case
+* Add template for drilling holes
+* Update BOM (better caps, better LED holder)
+* Record demo
+* Try screen print on the case
+* Describe screen printing process
 
 ## Cost
 
@@ -91,3 +85,7 @@ TODO describe what instruments to use
 
 * [ElectroSmash - Big Muff PI analysis](https://www.electrosmash.com/big-muff-pi-analysis)
 * [How to "Screen printing"](https://www.youtube.com/watch?v=NS8Q9LUIKA8)
+
+[1]: http://www.diyguitarpedals.com.au/shop/index.php?main_page=product_info&cPath=15&products_id=591
+[2]: http://www.caravanelectroworks.com/?p=418
+[3]: http://rezzonics.blogspot.com/2018/05/nutube-screamer-schematics-bom-layout.html
