@@ -23,9 +23,12 @@ on well-known Big Muff PI pedal based on ElectroSmash's schematics.
 
 ![Photo of assembled Fuzz Pedal](./photos/pedal-photo1.png)
 
-## Notes
+### Demo Reconds
 
-TODO
+Coming soon!!!
+
+## TODO
+
 * Add [rubber feets][1]
 * Write article on how to paint Aluminum case
 * Add template for drilling holes
@@ -36,9 +39,30 @@ TODO
 
 ## Cost
 
-TODO
-* Calculate BOM
-* Time consumption?
+Here is crude cost calculation of one Pedal. Remember that this doesn't include
+any tools. The shipping price could vary (in my case I had many more parcels
+😕). In total one pedal cost about 50 - 60 euro (without shipping) + you would
+have a few paint sprays.
+
+| Material Type                | Quantity       | Price [EUR] |
+|------------------------------|----------------|-------------|
+| PCB                          | 5 (min amount) |     8.5     |
+| Electronic components & Misc |      1 set     |      25     |
+| Case                         |        1       |      11     |
+| Ground & Color & Clear Paint |        3       |     6x3     |
+| Shipping                     |       ~4       |     20x4    |
+
+How long does it take to make a pedal? If you have any experience in soldering,
+painting it will take somewhere around 33 hours mainly due waiting for paint to
+dry.
+
+| Activity Type             | Time [hours] |
+|---------------------------|--------------|
+| Board Soldering           |       5      |
+| Case drilling             |       2      |
+| Case cleaning & polishing |      0.5     |
+| Case painting             |      25      |
+| Assembling                |      0.5     |
 
 ## Assembling process
 
