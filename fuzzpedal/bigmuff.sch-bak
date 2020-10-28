@@ -1543,7 +1543,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 5450 2050 5500
 Text Notes 1350 6400 0    50   ~ 0
-Reverse Polarity Protection\nPPTC behaves like a fuse\nbut it's not one-time use
+Reverse Polarity Protection\nPPTC behaves like a fuse\nbut it's resetable
 $Comp
 L Connector:TestPoint TP7
 U 1 1 5F5852AE
@@ -1682,8 +1682,8 @@ Wire Wire Line
 	7900 5650 7900 5850
 Wire Wire Line
 	7900 5850 7750 5850
-Text Notes 8150 6300 2    50   ~ 0
-Connector on the \nboard with the circuit\n
+Text Notes 8150 6250 2    50   ~ 0
+Board with the circuit\n
 $Comp
 L Connector_Generic:Conn_01x04 J2
 U 1 1 5F4B5E99
@@ -1735,8 +1735,8 @@ Wire Wire Line
 	6750 5650 6750 5850
 Wire Wire Line
 	6750 5850 6900 5850
-Text Notes 6500 6300 0    50   ~ 0
-Connector on the \nboard with Jacks
+Text Notes 6500 6250 0    50   ~ 0
+Board with Jacks
 Wire Notes Line
 	8250 5350 8250 6400
 Wire Notes Line

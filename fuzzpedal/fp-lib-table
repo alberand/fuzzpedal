@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name bigmuffpi)(type KiCad)(uri ${KIPRJMOD}/bigmuffpi.pretty)(options "")(descr ""))
+  (lib (name bigmuffpi)(type KiCad)(uri ${KIPRJMOD}/fuzzpedal.pretty)(options "")(descr ""))
 )

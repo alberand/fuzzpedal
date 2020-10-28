@@ -4,13 +4,13 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "BigMuff Pi fuzzbox"
-Date "2020-05-09"
+Title "Guitar Fuzz Pedal"
+Date "2020-10-28"
 Rev "2.0"
 Comp "alberand"
-Comment1 "Copy of the Big Muff Pi based mainly on the excellent analysis from ElectroSmash"
-Comment2 "https://www.electrosmash.com/big-muff-pi-analysis"
-Comment3 ""
+Comment1 "https://www.electrosmash.com/big-muff-pi-analysis"
+Comment2 "from excellent analysis done by ElectroSmash"
+Comment3 "Guitar Fuzz Pedal based on the well-known Big Muff Pi "
 Comment4 ""
 $EndDescr
 $Comp
