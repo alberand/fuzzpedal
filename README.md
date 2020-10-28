@@ -5,7 +5,7 @@ on well-known Big Muff PI pedal based on ElectroSmash's schematics.
 
 ### Schematics
 
-[![Fuzz Pedal schematics](./photos/bigmuff-schematics.png)](./bigmuff-schematics.pdf)
+[![Fuzz Pedal schematics](./photos/schematics.png)](./schematics.pdf)
 
 ### PCB dimensions
 
@@ -13,11 +13,11 @@ on well-known Big Muff PI pedal based on ElectroSmash's schematics.
 
 ### 3D Render of PCB
 
-![Fuzz Pedal render](./photos/bigmuff-pcb-render.png)
+![Fuzz Pedal render](./photos/pcb-render.png)
 
 ### Photo of PCB
 
-![Photo of BigMuffPI PCB](./photos/pcb-photo2.png)
+![Photo of Fuzz Pedal PCB](./photos/pcb-photo2.png)
 
 ### Photo of assembled pedal
 
