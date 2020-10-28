@@ -41,7 +41,7 @@ Coming soon!!!
 
 Here is crude cost calculation of one Pedal. Remember that this doesn't include
 any tools. The shipping price could vary (in my case I had many more parcels
-😕). In total one pedal cost about 50 - 60 euro (without shipping) + you would
+😕). In total one pedal cost about 50 - 60 💶 euro (without shipping) + you would
 have a few paint sprays.
 
 | Material Type                | Quantity       | Price [EUR] |
