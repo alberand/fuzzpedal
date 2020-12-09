@@ -1,7 +1,7 @@
 ![DIY Fuzz Pedal](./photos/composition-photo.png)
 
 This repository contains a lot of information on how to build a Fuzz Pedal based
-on well-known Big Muff PI pedal based on ElectroSmash's schematics.
+on well-known Big Muff PI pedal.
 
 ### Schematics
 
@@ -29,13 +29,14 @@ Coming soon!!!
 
 ## TODO
 
-* Add [rubber feets][1]
+* Add [rubber feets][1] (After discussion seems to be unnecessary and it's better to have Hook-and-loop fastener)
 * Write article on how to paint Aluminum case
-* Add template for drilling holes
-* Update BOM (better caps, better LED holder)
-* Record demo
+* Add template for drilling holes (A4 paper with holes)
+* Update BOM (better caps, better LED holder)  - in progress
+* Record demo - in progress
 * Try screen print on the case
 * Describe screen printing process
+* Find what to use as a final coat for case painting
 
 ## Cost
 
@@ -67,6 +68,8 @@ dry.
 ## Assembling process
 
 TODO In progress
+
+The assebmly is quite simple. The most time-consuming part is to solder PCB. Otherwise, you just need to put PCB into box.
 
 ### Order components & PCB
 
