@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Guitar Fuzz Pedal"
-Date "2020-10-28"
+Date "2021-01-07"
 Rev "2.0"
 Comp "alberand"
 Comment1 "https://www.electrosmash.com/big-muff-pi-analysis"
