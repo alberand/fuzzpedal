@@ -69,44 +69,62 @@ dry.
 
 TODO In progress
 
-The assebmly is quite simple. The most time-consuming part is to solder PCB. Otherwise, you just need to put PCB into box.
+The assebmly process is quite simple. The most time-consuming part is PCB
+soldering. Otherwise, you just need to put PCB into box.
 
 ### Order components & PCB
 
-1. Import BOM to Mouser or Farnell and order components
-2. Order the rest of the components from Aliexpress (enclosure, foot switch)
-3. Import Gerber files to PCB manufacturer and order PCBs (jlcpcb.com)
+1. Import BOM to Mouser or Farnell and order components. The BOM is prepared for
+   those to distributors. However, sometimes components aren't in stock and it
+   can take months for them to restock them.
+2. Order the rest of the components from Aliexpress - enclosure and foot switch.
+   Those parts are also available on Amazon. I would recommend to by foot switch
+   from amazon as it seems to be in better quality. The case could be also
+   ordered from Mouser or Farnell.
+3. Import Gerber files to PCB manufacturer and order PCBs. I used jlcpcb.com
+   which worked out quite well.
 
 ### Solder board
 
 1. TODO image of the component placement (print it)
-2. Solder Transistors
-3. Solder resistors
-4. Solder capacitors with polarity
-5. Solder capacitors
-6. Solder potentiometers, jacks and switch
-7.0. Be careful with screwing components
-7. Prepare wires, LED with wires and power jack with wires
-8. Solder LED wires and wires between boards
+2. I recommend soldering components in the following order:
+    1. Resistors
+    2. Electrolytic Capacitors (those with polarity)
+    3. Capacitor
+    4. Transistors
+    5. Diodes
+    6. Thermal fuse (yellow)
+    7. Potentiometers, Jacks and Switch
+    8. Wires between PCBs
+3. Prepare wires, LED with wires and power jack with wires
+4. Solder wires to LED and to the Power jack, but don't solder it to the board
+   yet. Also, don't forget to put heat shrink tubes.
+5. Solder the LED to the board 
 
 ### Enclosure processing
 
 TODO describe what instruments to use
-1. Mark holes
-2. Drill holes
-3. Holes polishing
-4. Enamel painting
-5. Screen printing
+1. Print the template for the hole placement (TODO not in the repo)
+2. Cut the template and attach it to the case with adhesive tape
+3. Drill the holes
+4. Remove the template and polish the case with different sandpapers (TODO add
+   sizes)
+5. Paint the case (read the instruction on the spray):
+    1. 2 layers of primer
+    2. 2 layers of color paint
+    3. 1 layers of protection layer
+6. Screen printing (TODO)
 
 ### Assemble the pedal
 
 1. Break the board
-2. Screw switch and jacks
-3. Put power jack into the enclosure
-4. Solder power jack wires to the board
-5. Put second board into the enclosure and screw the knobs
-6. Use thermal glue to fix the board inside the case
-7. Screw the bottom of the enclosure
+2. Put the LED into the case and screw it to the case
+3. Screw switch and jacks
+4. Put second board into the enclosure and screw the knobs
+5. Put power jack into the enclosure
+6. Solder power jack wires to the board
+7. Use thermal glue (TODO it doesn't work) to fix the board inside the case
+8. Screw the bottom of the enclosure
 
 ### References
 
