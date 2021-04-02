@@ -27,7 +27,8 @@ on well-known Big Muff PI pedal.
 
 ![Demo 1](./demos/demo1.png)        [Play][4] 
 ![Demo 2](./demos/demo2.png)        [Play][5] 
-![Demo 3](./demos/demo3.png)        [Play][6] 
+
+[![Demo 3](./demos/demo3.png)][6] 
 
 ## TODO
 
