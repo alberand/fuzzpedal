@@ -3,6 +3,14 @@
 This repository contains a lot of information on how to build a Fuzz Pedal based
 on well-known Big Muff PI pedal.
 
+## Demo Reconds
+
+[![Demo 1](./demos/demo1.png)][4] 
+
+[![Demo 2](./demos/demo2.png)][5] 
+
+[![Demo 3](./demos/demo3.png)][6] 
+
 ### Schematics
 
 [![Fuzz Pedal schematics](./photos/schematics.png)](./schematics.pdf)
@@ -23,22 +31,12 @@ on well-known Big Muff PI pedal.
 
 ![Photo of assembled Fuzz Pedal](./photos/pedal-photo1.png)
 
-### Demo Reconds
-
-
-[![Demo 1](./demos/demo1.png)][4] 
-
-[![Demo 2](./demos/demo2.png)][5] 
-
-[![Demo 3](./demos/demo3.png)][6] 
-
 ## TODO
 
 * Add [rubber feets][1] (After discussion seems to be unnecessary and it's better to have Hook-and-loop fastener)
 * Write article on how to paint Aluminum case
 * Add template for drilling holes (A4 paper with holes)
 * Update BOM (better caps, better LED holder)  - in progress
-* Record demo - in progress
 * Try screen print on the case
 * Describe screen printing process
 * Find what to use as a final coat for case painting
