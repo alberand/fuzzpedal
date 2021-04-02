@@ -26,6 +26,10 @@ on well-known Big Muff PI pedal.
 ### Demo Reconds
 
 Coming soon!!!
+| --- | --- |
+| ![Demo 1](./demos/demo1_configuration.png) | [Play][4] |
+| ![Demo 2](./demos/demo2_configuration.png) | [Play][5] |
+| ![Demo 3](./demos/demo3_configuration.png) | [Play][6] |
 
 ## TODO
 
@@ -134,3 +138,6 @@ TODO describe what instruments to use
 [1]: http://www.diyguitarpedals.com.au/shop/index.php?main_page=product_info&cPath=15&products_id=591
 [2]: http://www.caravanelectroworks.com/?p=418
 [3]: http://rezzonics.blogspot.com/2018/05/nutube-screamer-schematics-bom-layout.html
+[4]: https://soundcloud.com/user-605705068/fuzzpedal-demo-param-1
+[5]: https://soundcloud.com/user-605705068/fuzzpedal-demo-param-2
+[6]: https://soundcloud.com/user-605705068/fuzzpedal-demo-param-3
