@@ -26,6 +26,7 @@ on well-known Big Muff PI pedal.
 ### Demo Reconds
 
 Coming soon!!!
+| Configuration | Demo |
 | --- | --- |
 | ![Demo 1](./demos/demo1_configuration.png) | [Play][4] |
 | ![Demo 2](./demos/demo2_configuration.png) | [Play][5] |
